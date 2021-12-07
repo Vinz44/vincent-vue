@@ -1,11 +1,11 @@
 <template>
-  <div class="hello">
+  <div class="text-center">
     <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>Nama : </h1>
   <p>Vincent (2024250011)</p> 
 </div>
 
-<div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+<div id="section1" class="container-fluid bg-success text-white" style="">
   <h1>Pendidikan : </h1>
   <p>TK : KDB 1</p>
   <p>SD : KDB 1</p>
@@ -14,14 +14,14 @@
   <p>Universitas : MDP Palembang</p>
 </div>
 
-<div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+<div id="section2" class="container-fluid bg-warning" style="">
   <h1>Hobby : </h1>
   <p> Playing Games</p>
   <p> Drawing Character </p>
   <p> Swiming </p>
 </div>
 
-<div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+<div id="section3" class="container-fluid bg-secondary text-white" style="">
   <h1> Pengalaman :  </h1>
   <p> Hanya pernah Magang Di Saat masih SMK di Tempat Komputer dan tempat Konsultasi Pajak</P>
   <p></P>
@@ -50,6 +50,9 @@
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item"><a class="page-link" href="#">Next</a></li>
   </ul>
+  <br/>
+   <router-link :to="{name: 'login'}" class="ms-1 me-1">Login</router-link><br>
+    <router-link :to="{name: 'register'}">Register</router-link>
 </div>
 
 </div>
